@@ -4,7 +4,7 @@ let wordVectors;
 
 function setup() {
   createCanvas(100, 100);
-  wordVectors = new p5ml.Word2Vec('/docs/assets/data/wordvecs/wordvecs10000.json');
+  wordVectors = new p5ml.Word2Vec('assets/data/wordvecs/wordvecs10000.json');
 
   let loadHide = select("#loadHide");
   loadHide.hide();

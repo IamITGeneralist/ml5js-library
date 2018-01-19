@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  img = createImg('/docs/assets/img/kitten.jpg', imageReady);
+  img = createImg('assets/img/kitten.jpg', imageReady);
 }
 
 function imageReady() {

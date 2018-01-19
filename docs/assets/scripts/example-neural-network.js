@@ -52,8 +52,8 @@ var uw = 140;
 // Note this is not the full dataset
 // From: https://pjreddie.com/projects/mnist-in-csv/
 function preload() {
-  training = loadStrings('/docs/assets/data/mnist_train_10000.csv');
-  testing = loadStrings('/docs/assets/data/mnist_test_1000.csv');
+  training = loadStrings('assets/data/mnist_train_10000.csv');
+  testing = loadStrings('assets/data/mnist_test_1000.csv');
 }
 
 function setup() {
